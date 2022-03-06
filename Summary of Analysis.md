@@ -20,3 +20,5 @@ Over the next 5 days, the GARCH model suggests that the volatility of the price 
 Our outputs generally say that the price will decrease over the next 5 days, but this is not necessarily enough information to make a clear trading decision, especially if the GARCH model is also suggesting that the volatility will increase
 
 # Regression Analysis
+
+The first thing we should note from the linear regression analysis is that the MSE is higher in-sample than out-of-sample, so the prediction data may not be very reliable. If you look very closely, the prediction trends very similarly to the actual data, but the movement is offset and the amount of change can be quite exaggerated and inaccurate.
